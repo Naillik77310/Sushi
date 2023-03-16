@@ -1,0 +1,30 @@
+= Kot-Line
+:author: POIRIER Alexandre & BELLIOT Killian
+:docdate: 2022-11-21
+:asciidoctor-version:1.1
+:description: Analyse projet kot-line
+:icons: font
+:listing-caption: Listing
+:toc-title: Table des matières
+:toc: left
+:toclevels: 4
+
+= Source
+Réaliser par l'équipe RedSuns (POIRIER Alexandre & BELLIOT Killian) le 15/03/2023.
+
+== Diagrammes:
+[plantuml]
+----
+@startuml
+title: Diagramme des tiers
+left to right direction
+skinparam packageStyle rectangle
+actor Client
+Client --> (Navigateur Web)
+(Navigateur Web) <-->(Serveur HTTP)
+(Navigateur Web) <--> (Serveur API)
+@enduml
+----
+
+
+image::src/assets/img/image.png[]
