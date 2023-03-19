@@ -16,6 +16,7 @@ Voici le lien de notre dépot github :
 https://github.com/Naillik77310/Sushi
 
 == Diagrammes:
+
 [plantuml]
 ----
 @startuml
@@ -29,6 +30,33 @@ Client --> (Navigateur Web)
 @enduml
 ----
 
+[plantuml]
+-----
+@startuml
+!pragma useVerticalIf on
+title Diagramme de cas d'utilisation
+
+left to right direction
+actor Utilisateur as user
+
+rectangle Action {
+
+  usecase "Consulter liste des boxs" as UC1
+  usecase "Consulter details d'une box" as UC2
+
+  usecase "Selectionner une box" as UC7
+  usecase "Gerer panier" as UC9
+}
+
+user --> UC1
+UC1 <-- UC2
+UC1 <-- UC7
+UC2 <-- UC7
+UC7 <-- UC9
+user --> UC9
+
+@enduml
+-----
 
 image::src/assets/img/image.png[]
 
