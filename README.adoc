@@ -12,6 +12,9 @@
 = Source
 Réaliser par l'équipe RedSuns (POIRIER Alexandre & BELLIOT Killian) le 15/03/2023.
 
+Voici le lien de notre dépot github :
+https://github.com/Naillik77310/Sushi
+
 == Diagrammes:
 [plantuml]
 ----
@@ -28,3 +31,8 @@ Client --> (Navigateur Web)
 
 
 image::src/assets/img/image.png[]
+
+
+== Maquette:
+Voici le lien qui représente la maquette de l'application:
+https://www.figma.com/file/jDuWIEKvv1pAiDutf6LeqJ/Untitled?node-id=0%3A1&t=QRdkjubsgVA025tj-1
