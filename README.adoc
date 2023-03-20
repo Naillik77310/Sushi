@@ -12,6 +12,10 @@
 = Source
 Réaliser par l'équipe RedSuns (POIRIER Alexandre & BELLIOT Killian) le 15/03/2023.
 
+Voici d'où vien le projet sushi :
+
+https://ldv-melun.github.io/sio-slam/sio-component/_attachments/SP2-Sushi-Angular-2023.pdf
+
 Voici le lien de notre dépot github :
 https://github.com/Naillik77310/Sushi
 
